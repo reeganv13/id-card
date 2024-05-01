@@ -1,0 +1,97 @@
+
+.container{
+    background-color: white;
+    width: 500px;
+    height: 280px;
+    margin-left: 33%;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.full-card{
+   
+   width: 500px;
+   height: 280px;
+   background-color: white;
+   margin-top: 10%;
+   background-color:  rgb(33, 63, 187);
+   
+   
+   
+}
+.image-circle{
+background-color: bisque;
+margin-left: 120px;
+}
+.card{
+   
+   display: flex;
+   position: relative;
+  
+   
+}
+.card-image{
+   border: 7px solid white;
+   
+   border-radius: 50%;
+   width: 150px;
+   position: absolute;
+   left: 0px;
+   top:55px;
+   z-index: 2;
+   padding: 5px;
+   background-color:  rgb(33, 63, 187);
+
+}
+
+.card-details{
+    background-color:white;
+    width: 360px;
+    height: 280px;
+    position: absolute;
+    left: 28%;
+    z-index: 1;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.card-name{
+ font-size: 44px;
+ font-weight: bold;
+ font-family: 'Times New Roman', Times, serif;
+ position: absolute;
+ top: 20%;
+ left: 10%;
+}
+.card-gender{
+    color:  rgb(33, 63, 187);
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 35%;
+    left: 13%;
+}
+.card-email{
+    color:  rgb(33, 63, 187);
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 59%;
+    left: 13%;
+}
+.card-phnum{
+    color:  rgb(33, 63, 187);
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 47%;
+    left: 13%;
+}
+/* Rectangle 3464754 */
+
+position: absolute;
+width: 1440px;
+height: 639px;
+left: -2px;
+top: 80px;
+
+background: linear-gradient(90.17deg, rgba(18, 18, 18, 0.88) 1.03%, rgba(18, 18, 18, 0.92) 44.18%, rgba(1, 1, 1, 0) 95.15%);
